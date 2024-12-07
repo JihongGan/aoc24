@@ -89,7 +89,7 @@ def part2(grid, visited):
 
 
 def main():
-    grid = read_input("./input.txt")
+    grid = read_input("6/input.txt")
     visited = part1([row[:] for row in grid])
     part2([row[:] for row in grid], visited)
 
